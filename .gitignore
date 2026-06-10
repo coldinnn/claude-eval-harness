@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Results (keep demo, ignore real API runs)
+results/results_*.json
+results/results_*.html
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
