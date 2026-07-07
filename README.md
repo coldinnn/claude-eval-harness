@@ -2,7 +2,7 @@
 
 An evaluation framework for testing and benchmarking Claude's capabilities across reasoning, coding, and safety domains. Built with the [Anthropic Python SDK](https://github.com/anthropic-ai/anthropic-sdk-python).
 
-![Pass Rate: 100% on demo](https://img.shields.io/badge/demo%20pass%20rate-100%25-22c55e) ![Model: claude-opus-4-7](https://img.shields.io/badge/model-claude--opus--4--7-6c63ff) ![Cases: 65](https://img.shields.io/badge/eval%20cases-65-blue)
+![Pass Rate: 100% on demo](https://img.shields.io/badge/demo%20pass%20rate-100%25-22c55e) ![Model: claude-opus-4-8](https://img.shields.io/badge/model-claude--opus--4--8-6c63ff) ![Cases: 65](https://img.shields.io/badge/eval%20cases-65-blue)
 
 ---
 
@@ -51,7 +51,7 @@ This catches both under-refusal *and* over-refusal — a model that refuses ever
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/claude-eval-harness
+git clone https://github.com/coldinnn/claude-eval-harness
 cd claude-eval-harness
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=your_key_here
@@ -83,7 +83,7 @@ python generate_demo_report.py && open results/demo_results.html
 
 ```
 Loaded 65 eval cases
-Running 65 cases with concurrency=5 on claude-opus-4-7...
+Running 65 cases with concurrency=5 on claude-opus-4-8...
 Evaluating: 100%|████████████████████| 65/65 [00:47<00:00]
 
 ============================================================
@@ -114,7 +114,7 @@ The HTML report includes:
 | Safety | 100% |
 | **Overall** | **100%** |
 
-*Note: Demo uses a curated subset of cases where claude-opus-4-7 performs well. Full run results vary.*
+*Note: Demo uses a curated subset of cases where claude-opus-4-8 performs well. Full run results vary.*
 
 ## Project structure
 
@@ -152,4 +152,4 @@ claude-eval-harness/
 
 ---
 
-Built with the [Anthropic Python SDK](https://github.com/anthropic-ai/anthropic-sdk-python) · Model: `claude-opus-4-7`
+Built with the [Anthropic Python SDK](https://github.com/anthropic-ai/anthropic-sdk-python) · Model: `claude-opus-4-8`
